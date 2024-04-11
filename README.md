@@ -21,5 +21,5 @@ Stack(
 ```
 ## Example:
 ![image](https://github.com/SlothSpunky77/dropdown-buttons/assets/94778190/97cfff72-e11e-4973-af15-93234a85cda5)
-![image](https://github.com/SlothSpunky77/dropdown-buttons/assets/94778190/6321a81d-03c5-416d-8725-40945cd323ef)
+![image](https://github.com/SlothSpunky77/dropdown-buttons/assets/94778190/f9290496-17c5-49e6-81ef-fea5a6132bb8)
 ![image](https://github.com/SlothSpunky77/dropdown-buttons/assets/94778190/80555511-3432-47f2-9f88-c79be25bed4f)
