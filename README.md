@@ -1,12 +1,22 @@
 ### Dropdown Buttons
 Takes a list of strings as input to stitch a dropdown.
 ## Usage:
+Wrap the widget with a stack and make sure that the widget is the topmost element.
 Import the file and use it as follows:
 ```
-Container(          
-  child: CustomDropdown(
-    options: ["Alpha", "Bravo", "Charlie"],
-  ),
+Stack(
+  children: [
+    ...
+    Container(
+      padding: const EdgeInsets.only(top: 33),  //used to position the widget
+      child: const Align(                       //used to position the widget
+        alignment: Alignment.topRight,
+        child: CustomDropdown(
+          options: ["Alpha", "Bravo", "Charlie"],
+        ),
+      ),
+    ),
+  ],
 ),
 ```
 ## Example:
