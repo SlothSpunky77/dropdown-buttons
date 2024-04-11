@@ -20,6 +20,6 @@ Stack(
 ),
 ```
 ## Example:
-<img src="[https://your-image-url.type](https://github.com/SlothSpunky77/dropdown-buttons/assets/94778190/97cfff72-e11e-4973-af15-93234a85cda5)" width="10" height="10">
+<img src="https://github.com/SlothSpunky77/dropdown-buttons/assets/94778190/97cfff72-e11e-4973-af15-93234a85cda5" width="10" height="10">
 ![image](https://github.com/SlothSpunky77/dropdown-buttons/assets/94778190/f9290496-17c5-49e6-81ef-fea5a6132bb8)
 ![image](https://github.com/SlothSpunky77/dropdown-buttons/assets/94778190/80555511-3432-47f2-9f88-c79be25bed4f)
