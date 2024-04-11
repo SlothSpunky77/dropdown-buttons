@@ -1,9 +1,9 @@
 ### Dropdown Buttons
 Takes a list of strings as input to stitch a dropdown.
 ## Usage:
-Modify the theme values in the .dart file.
-Wrap the widget with a stack and make sure that the widget is the topmost element.
-Import the file and use it as follows:
+Modify the theme values in the .dart file.    
+Wrap the widget with a stack and make sure that the widget is the topmost element.    
+Import the file and use it as follows:   
 ```
 Stack(
   children: [
