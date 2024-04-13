@@ -1,5 +1,6 @@
 ### Dropdown Buttons
-Takes a list of strings as input to stitch a dropdown.
+Takes a list of strings as input to stitch a dropdown.    
+Optionally takes width parameter.
 ## Usage:
 Modify the theme values in the .dart file.    
 Wrap the widget with a stack and make sure that the widget is the topmost element.    
@@ -14,6 +15,7 @@ Stack(
         alignment: Alignment.topRight,
         child: CustomDropdown(
           options: ["Alpha", "Bravo", "Charlie"],
+          width: 150,  //optional, defaults to 150
         ),
       ),
     ),
