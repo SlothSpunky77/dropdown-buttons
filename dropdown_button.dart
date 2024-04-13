@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 
 class CustomDropdown extends StatefulWidget {
   final List<String> options; // List of options for the dropdown
+  final double width;
 
   const CustomDropdown({
     Key? key,
     required this.options,
+    this.width = 150,
   }) : super(key: key);
 
   @override
@@ -45,7 +47,7 @@ class _CustomDropdownState extends State<CustomDropdown> {
       children: [
         // Top Button
         SizedBox(
-          width: 150,
+          width: widget.width,
           child: MaterialButton(
             color: Theme.of(context).colorScheme.background,
             shape: RoundedRectangleBorder(
@@ -82,7 +84,7 @@ class _CustomDropdownState extends State<CustomDropdown> {
                 children: _dropdownOptions
                     .map(
                       (option) => SizedBox(
-                        width: 150,
+                        width: widget.width,
                         child: MaterialButton(
                           color: Theme.of(context).colorScheme.background,
                           shape: RoundedRectangleBorder(
