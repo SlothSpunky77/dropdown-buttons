@@ -3,7 +3,7 @@ Takes a list of strings as input to stitch a dropdown.
 Optionally takes width parameter.
 ## Usage:
 Modify the theme values in the .dart file.    
-Wrap the widget with a stack and make sure that the widget is the topmost element.    
+Wrap the widget with a stack and  call it in the end of the stack (so that the widget appears above everyhing else).    
 Import the file and use it as follows:   
 ```
 Stack(
