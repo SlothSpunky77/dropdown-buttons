@@ -30,3 +30,4 @@ Stack(
 ### TODO:
 - Add dropdown animation
 - Modify the logic of the selected value so that it gets passed/stored better
+- Rewrite the logic of stacked widgets
